@@ -15,6 +15,10 @@ h3 {font-weight: lighter;}
 p {text-align: center;
     font-size: 18px;}
 
+button {display: inline-block;}
+
+button:hover {cursor: pointer;}
+
 #tutorial_container {width: 400px;
     display: inline-block;
 }
