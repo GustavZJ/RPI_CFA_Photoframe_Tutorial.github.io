@@ -8,26 +8,45 @@ h1 {color: red;
     text-align: center;}
 
 h2 {text-align: left;
-    font-size: 18px;}
+    font-size: 2vh;}
+
+@media only screen and (max-width: 480px) {
+    h2 {font-size: 2.5vh;}
+}
 
 h3 {font-weight: lighter;}
 
 p {text-align: center;
-    font-size: 18px;}
+    font-size: 2vh;}
 
-button {display: inline-block;}
+button {display: inline-block;
+    border: none;
+    width: 100%;
+    font-size: 5vh;
+    margin-top: 10px;}
 
 button:hover {cursor: pointer;}
 
-#tutorial_container {width: 400px;
-    display: inline-block;
+#tutorial_container {display: inline-block;}
+
+@media only screen and (min-width: 640px) {
+    #tutorial_container {max-width: 640px;}
 }
 
-.pc_image {width: 384px;
-    height: 216px;}
+.pc_image {max-width: 100%;}
 
-.phone_image_1 {width: 234px;
-    height: 506px;}
+@media only screen and (min-width: 640px) {
+    .pc_image {max-width: 640px;}
+}
 
-.phone_image_2 {width: 216px;
-    height: 480px;}
+.phone_image_1 {width: 100%;}
+
+@media only screen and (min-width: 292px) {
+    .phone_image_1 {max-width: 292px;}
+}
+
+.phone_image_2 {width: 100%;}
+
+@media only screen and (min-width: 270px) {
+    .phone_image_2 {max-width: 270px;}
+}
