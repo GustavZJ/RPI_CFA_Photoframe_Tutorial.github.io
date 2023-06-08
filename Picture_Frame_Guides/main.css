@@ -19,6 +19,8 @@ h3 {font-weight: lighter;}
 p {text-align: center;
     font-size: 2vh;}
 
+b {font-weight: bold;}
+
 button {display: inline-block;
     border: none;
     width: 100%;
