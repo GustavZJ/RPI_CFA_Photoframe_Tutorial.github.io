@@ -22,3 +22,12 @@ button:hover {cursor: pointer;}
 #tutorial_container {width: 400px;
     display: inline-block;
 }
+
+.pc_image {width: 384px;
+    height: 216px;}
+
+.phone_image_1 {width: 234px;
+    height: 506px;}
+
+.phone_image_2 {width: 216px;
+    height: 480px;}
