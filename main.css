@@ -37,6 +37,14 @@ button:hover {cursor: pointer;
 
 #tutorial_container {display: inline-block;}
 
+#toTop {border-radius: 2vh;
+    position: fixed;
+    width: auto;
+    height: auto;
+    font-size: 3vh;
+    bottom: 4vh;
+    right: 4vh;}
+
 @media only screen and (min-width: 640px) {
     #tutorial_container {max-width: 640px;}
 }
