@@ -2,29 +2,44 @@ body {text-align: center;
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    background-color: #3e4142;}
 
-h1 {color: red;
-    text-align: center;}
+* {font-family: Arial, Helvetica, sans-serif;}
+
+h1 {color: #A80A0A;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color:  lightgray;}
 
 h2 {text-align: left;
-    font-size: 3vh;}
+    font-size: 4vh;
+    color: white;}
 
 @media only screen and (max-width: 480px) {
     h2 {font-size: 2.5vh;}
 }
 
-h3 {font-weight: lighter;}
+h3 {font-weight: lighter;
+    color: white;}
 
 h4 {font-size: 4vh;
-    margin: 0;}
+    margin: 0;
+    color: white;}
 
-h5 {font-size: 3vh;}
+h5 {font-size: 3vh;
+    color: white;}
 
 p {text-align: center;
-    font-size: 3vh;}
+    font-size: 3vh;
+    color: white;}
 
-b {font-weight: bold;}
+b {font-weight: bold;
+    color: white;}
+
+a {color: lightblue}
+
+a:visited {color: lightblue;}
 
 button {display: inline-block;
     border: none;
