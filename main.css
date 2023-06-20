@@ -3,11 +3,14 @@ body {text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #3e4142;}
+    background-color: #3e4142;
+    font-family: Arial, Helvetica, sans-serif;}
 
 #whitebg {background-color: white;}
 
-* {font-family: Arial, Helvetica, sans-serif;}
+#maintext::before {content: "Her er en guide til hvordan man uploader billeder fra en ";}
+
+#maintext::after {content: " For at uploade billeder, skal du være forbundet til et af skolens wifi.";}
 
 h1 {color: #A80A0A;
     text-align: center;
