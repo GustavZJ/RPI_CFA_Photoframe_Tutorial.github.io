@@ -10,7 +10,7 @@ body {text-align: center;
 
 #maintext::before {content: "Her er en guide til hvordan man uploader billeder fra en ";}
 
-#maintext::after {content: " For at uploade billeder, skal du være forbundet til et af skolens wifi.";}
+#maintext::after {content: " For at uploade billeder, skal du være forbundet til CfA Guest.";}
 
 h1 {color: #A80A0A;
     text-align: center;
